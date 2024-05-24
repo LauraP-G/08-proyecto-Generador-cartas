@@ -38,3 +38,11 @@ window.onload = function() {
 
   document.querySelector("#number").innerHTML = numbersCardsRamdom;
 };
+
+/*
+let newWidth = prompt("Enter a width for your card (e.g., 200px, 50%)");
+let newHeight = prompt("Enter a height for your card (e.g., 300px, 75%)");
+
+let selectionCard = document.querySelector(".carta");
+selectionCard.style.width = newWidth;
+selectionCard.style.height = newHeight;*/

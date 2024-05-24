@@ -2,20 +2,19 @@
 
 body {
   background: linear-gradient(rgb(36, 155, 54), rgb(188, 231, 194));
-
   margin: 0;
   height: 100%;
 }
 
 .contenedor-padre {
   display: flex;
-  justify-content: center; /* Centra horizontalmente */
-  align-items: center; /* Centra verticalmente */
-  height: 100vh; /* Altura de la pantalla completa */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .carta {
-  border: 0 2px #222;
+  border: 0 2px transparent;
   width: 300px;
   max-width: 300px;
   height: 450px;
@@ -33,12 +32,12 @@ p {
 }
 
 .number-center {
-  font-size: 120px;
+  font-size: 7.5em;
 }
 
 .simbols-down,
 .simbols-up {
-  font-size: 80px;
+  font-size: 5em;
 }
 
 .container-center {
