@@ -1,1 +1,60 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background: linear-gradient(rgb(36, 155, 54), rgb(188, 231, 194));
+
+  margin: 0;
+  height: 100%;
+}
+
+.contenedor-padre {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  height: 100vh; /* Altura de la pantalla completa */
+}
+
+.carta {
+  border: 0 2px #222;
+  width: 300px;
+  max-width: 300px;
+  height: 450px;
+  border-radius: 10px;
+  background-color: #fffbfb;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  box-shadow: 0 0 35px 15px rgba(77, 77, 78, 0.521);
+}
+
+p {
+  margin: 0;
+}
+
+.number-center {
+  font-size: 120px;
+}
+
+.simbols-down,
+.simbols-up {
+  font-size: 80px;
+}
+
+.container-center {
+  display: flex;
+  justify-content: center;
+}
+
+.container-up {
+  display: flex;
+  margin-right: auto;
+  margin-left: 10px;
+}
+
+.container-down {
+  display: flex;
+  margin-left: auto;
+  transform: rotate(180deg);
+  margin-right: 10px;
+}
